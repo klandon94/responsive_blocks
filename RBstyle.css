@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    padding: 15px;
+}
+   
+#header{
+    height: 150px;
+    background-color: green;
+    margin-bottom: 20px;
+   }
+   
+#navigation{
+    height: 350px;
+    background-color: blue;
+    display:inline-block;
+    margin-right:15px;
+   }
+   
+#main_content{
+    background-color: red;
+    vertical-align:top;
+    display:inline-block;
+    padding:15px;
+   }
+   
+.subcontents{
+    height:240px;
+    background-color: yellow;
+    margin: 0px 10px 15px 0px;
+    display: inline-block;
+}
+    
+#advertisement{
+    background-color: purple;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width:480px){
+    #navigation{
+        display:none;
+    }
+    .entire{
+        width:98%;
+    }
+    .subheight{
+        height:110px;
+    }
+    .advheight{
+        height:80px;
+    }
+    .mainwidth{
+        width:92%;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:1023px){
+    #navigation{
+        display:none;
+    }
+    .entire{
+        width:97%;
+    }
+    .mainwidth{
+        width:95%;
+    }
+    .only2{
+        width:47.2%;
+    }
+    .advheight{
+        height:150px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .navwidth{
+        width:21%;
+    }
+    .subwidth{
+        width:31.6%;
+    }
+    .mainwidth{
+        width:74%;
+    }
+    .mainheight{
+        height:500px;
+    }
+    .advheight{
+        height:150px;
+    }
+}
+
